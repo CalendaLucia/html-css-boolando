@@ -1,6 +1,43 @@
 /* RESET */
+
 * {
     padding: 0px;
     margin: 0pc;
     box-sizing: border-box;
 }
+
+/* STYLE HEADER */
+
+.container-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+    background-color: #ff6900;
+    padding: 10px;
+    
+}
+
+.item-nav ul li {
+    display: inline-block;
+    
+}
+
+.item-nav a {
+    text-decoration: none;
+    color: white;
+    font-size:15px ;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.icon-header {
+    color: white;
+    font-size: 10px;
+}
+
+
+    
+    
