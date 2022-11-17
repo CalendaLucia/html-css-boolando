@@ -122,6 +122,21 @@
     
 }
 
+.second-img {
+    position:absolute;
+    right: 0px;
+    top: 0px;
+    display: none;
+}
+
+.first-img:hover + .second-img {
+    display: block;
+  }
+
+  .heart:hover {
+    color: red;
+  }
+
 /* FOOTER STYLE  */
 
 
